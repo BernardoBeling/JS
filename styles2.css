@@ -1,0 +1,20 @@
+.carousel {
+    overflow: hidden;
+    position: relative;
+    height:700px;    
+}
+.carousel .carousel-body section img {
+    width:100%;
+    height:auto;
+}
+.carousel .carousel-body section {
+    position: absolute;
+    left:2000px;
+    transition:500ms all;
+}
+.carousel .carousel-body section.active {
+    left:0;
+}
+.carousel .carousel-body section.prev {
+    left:-2000px;
+}
